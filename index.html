@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EntryCode — Door access that doesn't go dark</title>
+<meta name="description" content="EntryCode is the ticketing and entry platform for clubs and event hosts who need real control over who gets in — signed codes, offline-safe scanning, and vetted access.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="beamGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#f2b84b" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#f2b84b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f2b84b" stop-opacity="0"/>
+    </linearGradient>
+    <symbol id="threshold-mark" viewBox="0 0 100 100">
+      <line x1="26" y1="84" x2="26" y2="28" stroke="#f2b84b" stroke-width="8" stroke-linecap="square"/>
+      <line x1="74" y1="84" x2="74" y2="28" stroke="#f2b84b" stroke-width="8" stroke-linecap="square"/>
+      <line x1="20" y1="24" x2="80" y2="24" stroke="#f2b84b" stroke-width="8" stroke-linecap="square"/>
+      <path d="M40 84 L60 84 L54 34 L46 34 Z" fill="url(#beamGrad)"/>
+      <rect x="45" y="36" width="4" height="4" fill="#f2b84b"/>
+      <rect x="51" y="32" width="3" height="3" fill="#f2b84b"/>
+      <rect x="47" y="42" width="3" height="3" fill="#f2b84b"/>
+      <rect x="52" y="39" width="4" height="4" fill="#f2b84b"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="nav-row">
+    <a class="wordmark" href="#top">
+      <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#threshold-mark"/></svg></span>
+      Entry<span>Code</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <nav class="primary" id="primaryNav">
+      <a href="#how">How it works</a>
+      <a href="#security">Security</a>
+      <a href="#segments">Who it's for</a>
+      <a href="#pilot">Pilot clubs</a>
+      <a class="btn btn-outline-dark" href="#demo">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Door access that doesn't go dark.</h1>
+        <p class="lede">EntryCode is the ticketing and entry platform for clubs and event hosts who need real control over who gets in — not just a scan at the door.</p>
+        <div class="actions">
+          <a class="btn btn-brass" href="#demo">Get in touch</a>
+          <a class="btn btn-outline-light" href="#how">See how it works</a>
+        </div>
+      </div>
+      <div class="seal" aria-hidden="true">
+        <div class="hero-mark"><svg viewBox="0 0 100 100"><use href="#threshold-mark"/></svg></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section>
+    <div class="wrap">
+      <h2 class="eyebrow-free-heading">Generic ticketing wasn't built for venues like yours.</h2>
+      <div class="problem-grid">
+        <div class="problem-item">
+          <h3>Screenshots travel</h3>
+          <p>A static code is just an image. Once it's out, anyone holding a copy of it can use it.</p>
+        </div>
+        <div class="problem-item">
+          <h3>Wifi shouldn't decide who gets in</h3>
+          <p>If the connection drops, most scanners stop working. The queue backs up and the door becomes a bottleneck.</p>
+        </div>
+        <div class="problem-item">
+          <h3>A ticket isn't the same as a welcome</h3>
+          <p>Most platforms treat buying and belonging as identical. Your venue doesn't have to.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="wrap">
+      <h2 class="eyebrow-free-heading">How it works</h2>
+      <p class="section-lede">Four steps, from request to scan.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1.</div>
+          <h3>Apply or book</h3>
+          <p>Attendees request access or buy a ticket directly through your venue's page.</p>
+        </div>
+        <div class="step">
+          <div class="num">2.</div>
+          <h3>Approve</h3>
+          <p>Your venue decides who's in. Review each request yourself, or let members, or everyone, through automatically. Buying a ticket alone doesn't get anyone in.</p>
+        </div>
+        <div class="step">
+          <div class="num">3.</div>
+          <h3>Scan at the door</h3>
+          <p>A signed, rotating code is checked in seconds — nothing to forge or pass along. Guests have already paid, so there's no cash at the door.</p>
+        </div>
+        <div class="step">
+          <div class="num">4.</div>
+          <h3>Stay open, online or off</h3>
+          <p>If the connection drops, entry keeps running and reconciles automatically once it's back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECURITY -->
+  <section class="security" id="security">
+    <div class="wrap">
+      <h2 class="eyebrow-free-heading">Built for doors that can't afford to fail.</h2>
+      <p class="section-lede">This is where EntryCode does the most work — and where most ticketing platforms stop trying.</p>
+      <div class="ledger">
+        <div class="ledger-row">
+          <div>
+            <h3>Signed, rotating codes</h3>
+            <span class="tag-mono">no static image to copy</span>
+          </div>
+          <p>Every entry code is cryptographically signed and changes over time. A screenshot from last week is worthless at tonight's door.</p>
+        </div>
+        <div class="ledger-row">
+          <div>
+            <h3>Works offline</h3>
+            <span class="tag-mono">local fallback + auto reconcile</span>
+          </div>
+          <p>If the venue's connection drops, scanning falls back to a locally cached code and syncs automatically the moment it's back online — no gap in coverage at the door.</p>
+        </div>
+        <div class="ledger-row">
+          <div>
+            <h3>Your members, your data</h3>
+            <span class="tag-mono">fully isolated per venue</span>
+          </div>
+          <p>Every venue's member list, applicants, and attendee history stay completely separate — never visible to, or shared with, any other venue on EntryCode.</p>
+        </div>
+        <div class="ledger-row">
+          <div>
+            <h3>You decide who's in</h3>
+            <span class="tag-mono">venue makes the call</span>
+          </div>
+          <p>EntryCode handles the mechanics — identity, access, payment plumbing. Every accept, reject, and vetting decision stays with your venue.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEGMENTS -->
+  <section id="segments">
+    <div class="wrap">
+      <h2 class="eyebrow-free-heading">Built for your kind of venue.</h2>
+      <div class="segments-grid">
+        <div class="segment">
+          <h3>Independent event &amp; concert promoters</h3>
+          <p>Stop losing money to screenshot-shared tickets and stacked processing fees on small-run events.</p>
+        </div>
+        <div class="segment">
+          <h3>Sports clubs &amp; members' associations</h3>
+          <p>A reliable door for match days, plus straightforward member management without a full club-admin system.</p>
+        </div>
+        <div class="segment">
+          <h3>Private &amp; members-only venues</h3>
+          <p>Vetted, approval-based access with member lists that stay fully private to your venue.</p>
+          <a class="link-line" href="members.html">See how EntryCode handles members-only access</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PILOT CLUBS -->
+  <section class="how" id="pilot">
+    <div class="wrap">
+      <h2 class="eyebrow-free-heading">Become a pilot club.</h2>
+      <p class="section-lede">We're looking for a small number of clubs and venues to run EntryCode at real events before full launch. You help shape the product; we look after you while we do it.</p>
+      <div class="pricing-row">
+        <div class="price-col recommended">
+          <h3>What you get</h3>
+          <ul>
+            <li>Free for the first 3 months</li>
+            <li>Then 50% off for the next 12 months</li>
+            <li>After that, the full price is fixed for 2 years</li>
+            <li>Direct line to the people building it, with setup done alongside you</li>
+            <li>A real say in what gets built next</li>
+          </ul>
+        </div>
+        <div class="price-col">
+          <h3>What we ask</h3>
+          <ul>
+            <li>Use EntryCode on the door at your real events</li>
+            <li>Tell us what works and what doesn't, with a short check-in every few weeks</li>
+            <li>If it goes well, let us mention your club by name</li>
+          </ul>
+        </div>
+      </div>
+      <p class="pilot-note" id="pricing"><strong>Pricing after the pilot</strong> scales with the size of your club: a small club pays less than a large venue. Guests pay by Open Banking before they arrive, straight from their bank to yours: EntryCode never holds your money. Your door staff just scan: no float, no cash box, no counting up at the end of the night.</p>
+      <div class="pilot-actions">
+        <a class="btn btn-brass" href="mailto:info@entrycode.uk?subject=EntryCode%20pilot%20club">Apply to be a pilot club</a>
+        <span class="pilot-small">Places are limited. Tell us your club's name, roughly how many members you have, and how often you run events.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta-band" id="demo">
+    <div class="wrap">
+      <h2>Give your door a system it can trust.</h2>
+      <div class="actions">
+        <a class="btn btn-brass" href="mailto:info@entrycode.uk">Get in touch</a>
+        <a class="btn btn-outline-light" href="mailto:info@entrycode.uk">Ask a question</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <div>
+      <a class="wordmark" href="#top" style="color:#f5f3ec;">
+        <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#threshold-mark"/></svg></span>
+        Entry<span>Code</span>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="#how">How it works</a>
+      <a href="#security">Security</a>
+      <a href="#segments">Who it's for</a>
+      <a href="#pilot">Pilot clubs</a>
+      <a href="mailto:info@entrycode.uk">Contact</a>
+    </div>
+  </div>
+  <div class="wrap footer-fine">
+    <p>EntryCode is operated by Skeillebank Ltd, registered in Northern Ireland, company no. NI744153. Registered office: 8 Manse Road, Drumquin, BT78 4SD.</p>
+    <p>&copy; <span id="year"></span> Skeillebank Ltd</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('primaryNav');
+  toggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+</script>
+</body>
+</html>

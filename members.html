@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Members-only and adult venues — EntryCode</title>
+<meta name="description" content="How EntryCode handles members-only and adult venues: you decide who gets in, member lists that stay private, explicit consent and discreet notifications, and an 18+ platform.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="beamGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#f2b84b" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#f2b84b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f2b84b" stop-opacity="0"/>
+    </linearGradient>
+    <symbol id="threshold-mark" viewBox="0 0 100 100">
+      <line x1="26" y1="84" x2="26" y2="28" stroke="#f2b84b" stroke-width="8" stroke-linecap="square"/>
+      <line x1="74" y1="84" x2="74" y2="28" stroke="#f2b84b" stroke-width="8" stroke-linecap="square"/>
+      <line x1="20" y1="24" x2="80" y2="24" stroke="#f2b84b" stroke-width="8" stroke-linecap="square"/>
+      <path d="M40 84 L60 84 L54 34 L46 34 Z" fill="url(#beamGrad)"/>
+      <rect x="45" y="36" width="4" height="4" fill="#f2b84b"/>
+      <rect x="51" y="32" width="3" height="3" fill="#f2b84b"/>
+      <rect x="47" y="42" width="3" height="3" fill="#f2b84b"/>
+      <rect x="52" y="39" width="4" height="4" fill="#f2b84b"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="nav-row">
+    <a class="wordmark" href="index.html">
+      <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#threshold-mark"/></svg></span>
+      Entry<span>Code</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <nav class="primary" id="primaryNav">
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#security">Security</a>
+      <a href="index.html#segments">Who it's for</a>
+      <a href="index.html#pilot">Pilot clubs</a>
+      <a class="btn btn-outline-dark" href="mailto:info@entrycode.uk">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <h1>Private doors, handled privately.</h1>
+      <p class="lede">For members' clubs and adult venues, who gets in matters, and so does who knows about it. Here's how EntryCode handles both.</p>
+    </div>
+  </section>
+
+  <!-- APPROVAL -->
+  <section>
+    <div class="wrap">
+      <h2 class="eyebrow-free-heading">Nobody gets in just by paying.</h2>
+      <p class="section-lede">On EntryCode, a ticket is a request, not a purchase. Your venue decides who gets approved.</p>
+      <div class="problem-grid">
+        <div class="problem-item">
+          <h3>You decide who's approved</h3>
+          <p>Review each request yourself, or approve members, or everyone, automatically. You can change that for a single event. Requests you don't answer in time expire and count as declined.</p>
+        </div>
+        <div class="problem-item">
+          <h3>Nothing is charged until you say yes</h3>
+          <p>Guests only pay after approval, by Open Banking straight from their bank to yours. Declined guests are never charged.</p>
+        </div>
+        <div class="problem-item">
+          <h3>Bans and revoked tickets</h3>
+          <p>Ban a guest from future events, or revoke an approved ticket before they've checked in. The decision stays with you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERS -->
+  <section class="how">
+    <div class="wrap">
+      <h2 class="eyebrow-free-heading">Recognise your members without handing over your list.</h2>
+      <p class="section-lede">Guests say whether they're a member or want to apply. That's their claim. You make the final call, with help from your own records.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1.</div>
+          <h3>Upload a hashed list</h3>
+          <p>Match returning members from a spreadsheet. EntryCode stores only keyed hashes of contact details, never the plain emails or phone numbers.</p>
+        </div>
+        <div class="step">
+          <div class="num">2.</div>
+          <h3>Or connect your own system</h3>
+          <p>If you already run a membership database, EntryCode can check requests against it through your own API.</p>
+        </div>
+        <div class="step">
+          <div class="num">3.</div>
+          <h3>Members-only events</h3>
+          <p>Run events for members only, or give members priority, and keep applicants separate until you've decided.</p>
+        </div>
+        <div class="step">
+          <div class="num">4.</div>
+          <h3>Your list stays yours</h3>
+          <p>Each venue's members, applicants and history are kept apart and never shown to, or shared with, another venue.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADULT VENUES -->
+  <section class="security">
+    <div class="wrap">
+      <h2 class="eyebrow-free-heading">Built with adult venues in mind.</h2>
+      <p class="section-lede">A visit to an adult venue can reveal something personal about a guest. The law treats that as especially sensitive data, and so does EntryCode.</p>
+      <div class="ledger">
+        <div class="ledger-row">
+          <div>
+            <h3>Explicit consent first</h3>
+            <span class="tag-mono">separate, never pre-ticked</span>
+          </div>
+          <p>Before a guest's first request to any adult venue, EntryCode asks for their explicit consent and records when they gave it. They can withdraw it at any time.</p>
+        </div>
+        <div class="ledger-row">
+          <div>
+            <h3>Discreet notifications</h3>
+            <span class="tag-mono">no venue or event names</span>
+          </div>
+          <p>Push notifications and emails about adult venues never name the venue or the event. The details are only visible inside EntryCode.</p>
+        </div>
+        <div class="ledger-row">
+          <div>
+            <h3>18+ only</h3>
+            <span class="tag-mono">you still check ID</span>
+          </div>
+          <p>EntryCode is for people aged 18 and over and asks for a date of birth once. That's a self-declared check, not proof of age. You still check ID at the door, and you can set a higher minimum age for your events.</p>
+        </div>
+        <div class="ledger-row">
+          <div>
+            <h3>Tickets that don't linger</h3>
+            <span class="tag-mono">PIN-locked, auto-removed</span>
+          </div>
+          <p>Tickets saved on a guest's phone are protected by a PIN, wiped after five wrong tries, and removed a few days after the event.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESPONSIBILITIES -->
+  <section>
+    <div class="wrap">
+      <h2 class="eyebrow-free-heading">Who's responsible for what.</h2>
+      <p class="section-lede">You decide who gets into your events, so you're the data controller for your guest list. EntryCode handles that data on your behalf under a data processing agreement, stored in the EU. Your licences, age policy and house rules remain yours.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="wrap">
+      <h2>Run a members' club or adult venue?</h2>
+      <div class="actions">
+        <a class="btn btn-brass" href="mailto:info@entrycode.uk?subject=EntryCode%20pilot%20club">Apply to be a pilot club</a>
+        <a class="btn btn-outline-light" href="mailto:info@entrycode.uk">Ask a question</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <div>
+      <a class="wordmark" href="index.html" style="color:#f5f3ec;">
+        <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#threshold-mark"/></svg></span>
+        Entry<span>Code</span>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#security">Security</a>
+      <a href="index.html#segments">Who it's for</a>
+      <a href="index.html#pilot">Pilot clubs</a>
+      <a href="mailto:info@entrycode.uk">Contact</a>
+    </div>
+  </div>
+  <div class="wrap footer-fine">
+    <p>EntryCode is operated by Skeillebank Ltd, registered in Northern Ireland, company no. NI744153. Registered office: 8 Manse Road, Drumquin, BT78 4SD.</p>
+    <p>&copy; <span id="year"></span> Skeillebank Ltd</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('primaryNav');
+  toggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+</script>
+</body>
+</html>
