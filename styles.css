@@ -358,3 +358,6 @@ footer{
 .footer-fine{margin-top:32px; font-size:13px; color:#8b8878;}
 .footer-fine p + p{margin-top:6px;}
 .pilot-note a{color:var(--brass-dark); font-weight:600; border-bottom:1px solid var(--brass);}
+/* Keep "EntryCode" as one word: the flex gap above only separates the mark from the name. */
+.wordmark .wm-text{color:inherit;}
+.wordmark em{font-style:normal; color:var(--brass);}
