@@ -324,7 +324,11 @@ section{padding:88px 0;}
 }
 .price-figure small{font-family:var(--sans); font-size:14px; color:var(--slate); font-weight:500;}
 .price-col ul{list-style:none; margin:18px 0 0; padding:0; font-size:14.5px; color:var(--slate);}
-.price-col li{padding:7px 0; border-top:1px solid var(--line);}
+.price-col li{padding:7px 0 7px 32px; position:relative; border-top:1px solid var(--line);}
+/* Tick lists (voice.md, 31 Oct 2026): the apps' filled circle and tick. brass-dark, as brass is too faint on paper. */
+.price-col li::before, .price-col li::after{content:""; position:absolute; left:0; top:calc(7px + 0.5lh - 10px); width:20px; height:20px;}
+.price-col li::before{border-radius:50%; background:var(--brass-dark);}
+.price-col li::after{background:var(--paper); -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E") center / 14px no-repeat; mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E") center / 14px no-repeat;}
 .price-col li:first-child{border-top:none;}
 @media (max-width:820px){
   .pricing-row{flex-direction:column;}
